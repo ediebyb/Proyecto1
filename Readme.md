@@ -1,21 +1,17 @@
-# Proyecto 1: Introducción al Portafolio de Productos
+# 📊 Proyecto 1: Análisis Avanzado de Ventas
 
 ## Descripción
-Este proyecto forma parte de mi aprendizaje en el Módulo 10: "Portafolio de Productos Tecnológicos". Aquí aplico los conceptos de presentación personal, documentación clara y buenas prácticas de portafolio profesional.
+Este proyecto aplica conceptos clave de **manipulación de datos con Python** y técnicas de **procesamiento eficiente** para analizar un dataset de ventas. Simula un entorno de procesamiento distribuido mediante el uso de **chunks**, lo que permite trabajar con conjuntos de datos grandes sin sobrecargar la memoria. Incluye limpieza avanzada de datos (manejo de valores nulos), análisis agregado y visualizaciones interactivas para extraer insights de negocio.
 
 ## Objetivos
-- Comprender la importancia de un portafolio en el ámbito tecnológico.
-- Documentar de forma clara y profesional mis proyectos.
-- Aplicar buenas prácticas de diseño y organización.
+- Procesar eficientemente un dataset de ventas de gran tamaño mediante el procesamiento por fragmentos (*chunks*).
+- Aplicar técnicas avanzadas de limpieza de datos, como la imputación de valores faltantes.
+- Identificar patrones y tendencias clave en las ventas mensuales por producto.
+- Optimizar la eficiencia del análisis para escalar a datasets reales.
+- Generar visualizaciones claras que comuniquen hallazgos a audiencias no técnicas.
 
 ## Tecnologías
-- HTML
-- CSS
-- Markdown
-- GitHub Pages
-
-## Instalación y Ejecución
-Este proyecto es un sitio web estático. Para verlo localmente:
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/edie-byb/proyecto-1.git
+- **Python**: Lenguaje principal para el análisis de datos.
+- **pandas**: Para la manipulación, limpieza y agrupación de datos.
+- **numpy**: Para la generación de datos y operaciones numéricas.
+- **matplotlib** y **seaborn**: Para la creación de visualizaciones estáticas e interactivas.
